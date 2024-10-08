@@ -88,7 +88,8 @@ cd yourproject
 open two terminal instances one for frontend and other for backend
 npm install
 
-create .env files for both frontend and backend by referencing .env.example file.
+# create .env files for both frontend and backend 
+ex: MONGO_URI="your_db_connection_string"
 
 Running the Application
 Start both frontend and backend server:
