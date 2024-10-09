@@ -2,12 +2,9 @@ const Transaction = require("../models/transacation");
 const axios = require("axios");
 
 // API endpoints for fetching data from individual APIs
-const totalSaleAmountAPI =
-  "http://localhost:3000/api/v1/statistics/total-sales-amt";
-const totalItemsSoldAPI =
-  "http://localhost:3000/api/v1/statistics/total-items-sold";
-const totalItemsNotSoldAPI =
-  "http://localhost:3000/api/v1/statistics/total-items-notSold";
+const totalSaleAmountAPI = `${process.env.BACKEND_API_URL}/statistics/total-sales-amt`;
+const totalItemsSoldAPI = `${process.env.BACKEND_API_URL}/statistics/total-items-sold`;
+const totalItemsNotSoldAPI = `${process.env.BACKEND_API_URL}/statistics/total-items-notSold`;
 
 const getAllStatisticsOfMonth = async (req, res) => {
   try {
