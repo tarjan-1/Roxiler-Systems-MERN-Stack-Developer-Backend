@@ -80,7 +80,7 @@ also refer package.json for more
 Clone the repository:
 
 bash
-git clone https://github.com/tarjan-1/Roxiller-Assessment-MERN-Stack.git
+git clone [https://github.com/tarjan-1/Roxiler-Systems-MERN-Stack-Developer-Backend.git](https://github.com/tarjan-1/Roxiler-Systems-MERN-Stack-Developer-Backend.git)
 
 Install dependencies:
 
