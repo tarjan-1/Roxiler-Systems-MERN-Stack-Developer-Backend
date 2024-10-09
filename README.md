@@ -12,7 +12,7 @@
 
 ## Introduction
 
-Secure and scalable RESTful API that allows users to get valuable info from the data fetched from the source: [https://s3.amazonaws.com/roxiler.com/product_transaction.json] (https://s3.amazonaws.com/roxiler.com/product_transaction.json)
+Secure and scalable RESTful API that allows users to get valuable info from the data fetched from the source: [https://s3.amazonaws.com/roxiler.com/product_transaction.json]
 
 Ex:
 
